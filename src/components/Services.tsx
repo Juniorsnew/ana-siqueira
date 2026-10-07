@@ -1,39 +1,42 @@
-import volume5d from "@/assets/volume-5d.jpeg";
-import brasileiro from "@/assets/brasileiro.jpeg";
-import volumeEgipcio from "@/assets/volume-egipcio.jpeg";
-import volumeLuxo from "@/assets/volume-luxo.jpeg";
-import { WHATSAPP_URL } from "./WhatsAppFloat";
+import designSobrancelhas from "@/assets/design-sobrancelhas.png";
+import designHenna from "@/assets/design-henna.png";
+import designTintura from "@/assets/design-tintura.png";
+import extensaoCilios from "@/assets/extensao-cilios.png";
 
 const services = [
   {
-    image: brasileiro,
+    image: designSobrancelhas,
     name: "Design de Sobrancelhas",
     description:
       "Design personalizado para valorizar o formato natural das sobrancelhas e harmonizar o olhar.",
     duration: "30 minutos",
     price: "R$ 25,00",
+    bookingUrl: "https://web.miaapp.com.br/p/studio-ana-siqueira/44cyQxtPA70/6p16e685yb0",
   },
   {
-    image: volumeEgipcio,
+    image: designHenna,
     name: "Design com Henna",
     description: "Design de sobrancelhas com aplicação de henna para realçar e definir o olhar.",
     duration: "50 minutos",
     price: "R$ 35,00",
+    bookingUrl: "https://web.miaapp.com.br/p/studio-ana-siqueira/44cyQxtPA70/mv7jyv4mq4mo",
   },
   {
-    image: volume5d,
+    image: designTintura,
     name: "Design com Tintura",
     description: "Design de sobrancelhas com tintura para realçar a cor e a definição dos fios.",
     duration: "50 minutos",
     price: "R$ 50,00",
+    bookingUrl: "https://web.miaapp.com.br/p/studio-ana-siqueira/44cyQxtPA70/bjiqpk8gb62c",
   },
   {
-    image: volumeLuxo,
+    image: extensaoCilios,
     name: "Extensão de Cílios",
     description:
       "Extensão de cílios para destacar o olhar com um resultado delicado e sofisticado.",
     duration: "2 horas",
     price: "R$ 100,00",
+    bookingUrl: "https://web.miaapp.com.br/p/studio-ana-siqueira/44cyQxtPA70/7j32nh41cmo9",
   },
 ];
 
@@ -87,7 +90,7 @@ export function Services() {
                 </div>
 
                 <a
-                  href={WHATSAPP_URL}
+                  href={s.bookingUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="button-gold mt-6 flex w-full items-center justify-center rounded-full py-3 text-xs font-medium uppercase tracking-widest"

@@ -1,4 +1,5 @@
 import { Award, Heart, Sparkles } from "lucide-react";
+import aboutImage from "@/assets/sobre-studio.png";
 
 const pillars = [
   {
@@ -32,6 +33,12 @@ export function About() {
             O Studio Ana Siqueira tem as sobrancelhas como especialidade principal, com serviços de
             Brow e extensão de cílios para valorizar o olhar com delicadeza e cuidado.
           </p>
+          <img
+            src={aboutImage}
+            alt="Detalhe de sobrancelhas e olhar — Studio Ana Siqueira"
+            className="mx-auto mt-12 block w-full max-w-4xl rounded-3xl object-cover shadow-card"
+            loading="lazy"
+          />
         </div>
 
         <div className="mt-16 grid gap-6 md:grid-cols-3">

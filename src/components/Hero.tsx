@@ -1,5 +1,4 @@
 import logoAnaSiqueira from "@/assets/logo-ana-siqueira.png";
-import { WHATSAPP_URL } from "./WhatsAppFloat";
 import { Sparkles } from "lucide-react";
 
 export function Hero() {
@@ -30,18 +29,16 @@ export function Hero() {
 
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center lg:justify-start">
             <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#servicos"
               className="group button-gold inline-flex items-center justify-center rounded-full px-8 py-4 text-sm font-medium uppercase tracking-widest transition-transform hover:scale-[1.02]"
             >
-              Agendar agora
+              Ver serviços
             </a>
             <a
-              href="#servicos"
+              href="#sobre"
               className="text-sm uppercase tracking-widest text-foreground/70 transition-colors hover:text-[var(--gold)]"
             >
-              Conhecer serviços →
+              Sobre o studio →
             </a>
           </div>
         </div>

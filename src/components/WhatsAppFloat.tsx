@@ -1,7 +1,7 @@
 import { MessageCircle } from "lucide-react";
 
 const WHATSAPP_URL =
-  "https://wa.me/551935972893?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20Studio%20Ana%20Siqueira.";
+  "https://wa.me/551935972893?text=Ol%C3%A1%21%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20o%20Studio%20Ana%20Siqueira.";
 
 export function WhatsAppFloat() {
   return (

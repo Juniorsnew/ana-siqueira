@@ -15,7 +15,8 @@ export function CTA() {
           </h2>
           <div className="gold-divider mx-auto my-8 w-24" />
           <p className="mx-auto max-w-xl text-muted-foreground">
-            Agende seu atendimento de Brow ou Lash pelo WhatsApp.
+            Para agendar, escolha o serviço acima e clique no botão correspondente. Para dúvidas ou
+            informações, fale conosco pelo WhatsApp.
           </p>
 
           <a
@@ -24,7 +25,7 @@ export function CTA() {
             rel="noopener noreferrer"
             className="button-gold mt-10 inline-flex items-center justify-center rounded-full px-10 py-4 text-sm font-medium uppercase tracking-widest hover:scale-[1.02]"
           >
-            Agendar pelo WhatsApp
+            Tirar dúvidas
           </a>
         </div>
       </div>
